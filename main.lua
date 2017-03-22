@@ -39,7 +39,7 @@ function love.update(dt)
       velY > -0.7
     ) then
       velX = math.random(-3, 3)
-      vely = math.random(-10, -4)
+      velY = math.random(10, -4)
       beep:play()
     end
   else
